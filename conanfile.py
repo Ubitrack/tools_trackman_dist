@@ -1,4 +1,5 @@
 from conans import ConanFile
+import os
 
 class TrackmanConan(ConanFile):
     name = "ubitrack_tools_trackman"
