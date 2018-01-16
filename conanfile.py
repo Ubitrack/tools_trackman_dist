@@ -5,7 +5,7 @@ class TrackmanConan(ConanFile):
     name = "ubitrack_tools_trackman"
     version = "1.0"
     build_policy = "missing"
-    no_copy_source = True
+    exports_sources = "bin/*", "doc/*", "lib/*"
 
     requires = (
         "java_installer/9.0.0@bincrafters/stable",
